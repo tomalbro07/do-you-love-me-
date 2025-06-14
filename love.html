@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love You Too</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("bg image.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: white;
+    }
+
+    .cloud {
+      position: absolute;
+      top: 20%;
+      left: -300px;
+      animation: floatCloud 80s linear infinite;
+      opacity: 0.85;
+      z-index: 0;
+    }
+
+    .cloud img {
+      width: 350px;
+      height: auto;
+    }
+
+    .content {
+      margin-top: 100px;
+      z-index: 2;
+      position: relative;
+    }
+
+    img.gif {
+      width: 220px;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 30px;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    p {
+      font-size: 1em;
+      margin-top: 20px;
+      color: #eee;
+    }
+
+    @keyframes floatCloud {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(160vw);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cloud">
+    <img src="cloud png.png" alt="cloud">
+  </div>
+
+  <div class="content">
+    <img src="boy gif.gif" class="gif" alt="Love GIF">
+    <h1>LOVE YOU TOO 😘🥰</h1>
+    <p>Note: This content is only for fun.<br><em>Tomal Bhattacharjoo</em></p>
+  </div>
+</body>
+</html>
